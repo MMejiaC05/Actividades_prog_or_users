@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1A1A1A;
+  background-color: #F4F4F4;
+  margin: 0;
+  padding: 20px;
+}
+
+.articulo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+}
+
+#articulo {
+  overflow-wrap: break-word;
+}
+
+
+header {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  padding: 20px 40px;
+}
+
+.autor {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 4px 0;
+}
+
+.afiliacion,
+.contacto {
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 4px 0;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #0B3C5D;
+  margin: 0 0 8px 0;
+}
+
+h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #0B3C5D;
+  margin: 24px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+h3 {
+  font-size: 14px;
+  text-align: left;
+  color: #1D6A9E;
+  margin: 16px 0 8px 0;
+}
+
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0 0 12px 0;
+}
+
+.resumen {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  border-left: 4px solid #0B3C5D;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.palabras-clave {
+  font-size: 11px;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+ul,
+ol {
+  font-size: 12px;
+  margin: 0 0 12px 0;
+  padding-left: 28px;
+}
+
+li {
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 6px;
+}
+
+
+a {
+  color: #1D6A9E;
+  text-decoration: none;
+  overflow-wrap: break-word;
+}
+
+a:hover {
+  color: #C0392B;
+  text-decoration: underline;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+
+th {
+  background-color: #EFEFEF;
+  color: #0B3C5D;
+  text-align: left;
+  border: 1px solid #CCCCCC;
+  padding: 8px;
+}
+
+td {
+  font-size: 12px;
+  border: 1px solid #CCCCCC;
+  padding: 8px;
+}
+
+.titulo-tabla,
+figcaption {
+  font-size: 11px;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.referencias {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.referencias li {
+  font-size: 11px;
+  padding-left: 24px;
+  text-indent: -24px;
+}
+
+
+footer {
+  max-width: 800px;
+  margin: 20px auto 0 auto;
+  padding: 0 40px;
+}
+
+footer p {
+  font-size: 11px;
+  text-align: center;
+  margin: 0 0 6px 0;
+}
